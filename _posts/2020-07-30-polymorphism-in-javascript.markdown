@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Polymorphism in JavaScript"
+image: "/assets/social/polymorphism.png"
 date:   2020-07-30 12:00:00 -0500
 ---
 
