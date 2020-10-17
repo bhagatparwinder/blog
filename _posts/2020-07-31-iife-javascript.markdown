@@ -62,5 +62,3 @@ We must use `()` to call the method.
 Ta-Da! Instead of creating a IIFE using `(function => {})()` we have done it using `!function => {}()`. No need to wrap our function block in `()`.
 
 🚨 Do you see that I changed the return statement in my last example to a console.log? It is on purpose. IIFE will always return `undefined`. If we use the negation operator to create an IIFE, it will return `true` because `!undefined` is `true`.
-
-
