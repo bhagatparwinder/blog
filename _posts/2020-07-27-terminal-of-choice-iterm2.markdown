@@ -32,7 +32,7 @@ I've been with iTerm2 for the last five years. I'm absolutely in love ❤️ wit
 ### Downloads
 
 * You can get iTerm2 [here](https://www.iterm2.com/downloads.html). Keep in mind that it is only available for Mac.
-* Powerline Patched fonts are available [here](https://github.com/powerline/font)
+* Powerline Patched fonts are available [here](https://github.com/powerline/fonts)
 * Cobalt2 Color Scheme is available [here](https://github.com/wesbos/Cobalt2-iterm)
 * Direct link to my profile JSON is [here](https://gist.github.com/bhagatparwinder/200f769bd4418d977c43170b055a3edc)
 
