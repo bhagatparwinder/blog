@@ -20,9 +20,9 @@ group :jekyll_plugins do
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
+# and associated library. tzinfo >= 2.0 required by activesupport 6.1+ (security).
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", ">= 2.0"
   gem "tzinfo-data"
 end
 
@@ -31,3 +31,6 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 
 gem "webrick", "~> 1.8"
+
+# Security: force activesupport >= 6.1.7.5 (github-pages pulls in 6.0.x via html-pipeline)
+gem "activesupport", ">= 6.1.7.5"
